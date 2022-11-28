@@ -1,0 +1,43 @@
+Algoritmo "semnome"
+// Disciplina   : [Linguagem e Lógica de Programação]
+// Professor   : Antonio Carlos Nicolodi 
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
+// Data atual  : 28/11/2022
+Var
+// Seção de Declarações das variáveis
+
+car_vel: real
+numero: real
+idade: real
+
+Inicio
+// Seção de Comandos, procedimento, funções, operadores, etc...
+
+escreval("Qual suavelocidade?: ")
+leia(car_vel)
+
+se (car_vel > 80) então
+   escreval("multa: ", (5*(car_vel-80)), "R$")
+fimse
+
+se (car_vel < 80) então
+   escreval("Você não foi multado")
+fimse
+
+escreval("Digite um número: ")
+leia(numero)
+se (numero%2=0) então
+   escreval("Par")
+senão
+     escreval("impar")
+fimse
+
+escreval("Escreva sua idade")
+leia(idade)
+se (idade < 18) então
+   escreval(18-idade)
+fimse
+
+
+Fimalgoritmo
